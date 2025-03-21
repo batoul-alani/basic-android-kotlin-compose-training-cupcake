@@ -106,6 +106,7 @@ fun CupcakeApp(
             composable(route = CupcakeScreen.Start.name){
                 StartOrderScreen(
                     quantityOptions = DataSource.quantityOptions,
+                    onNextButtonClicked = {},
                     modifier = Modifier
                         .fillMaxSize()
                         .padding(dimensionResource(R.dimen.padding_medium))
